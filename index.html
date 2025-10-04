@@ -1,11 +1,220 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Surfboard Shop</title>
+    <link rel="icon" type="image/svg" href="assets/images/icons/FavIcon.svg">
+    <link rel="apple-touch-icon" href="assets/images/icons/FavIcon.svg">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/components/teaser.css">
+    <link rel="stylesheet" href="assets/css/components/hero.css">
+    <link rel="stylesheet" href="assets/css/components/header.css">
+    <link rel="stylesheet" href="assets/css/components/footer.css">
+    <link rel="stylesheet" href="assets/css/components/carousel-items.css">
+    <link rel="stylesheet" href="assets/css/components/carousel.css" media="screen">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    
+    <div class="container-global">
+        <header>
+            <div class="header-content">
+                <a href="#" class="logo">
+                    <img src="assets/images/icons/Logo.svg" alt="Logo">
+                </a>
+
+                <button class="menu-toggle" aria-label="Abrir menu">
+                    <img src="assets/images/icons/MenuMobile.svg" alt="Menu Mobile">
+                </button>
+
+                <nav class="nav-header" aria-label="Navegação principal">
+                    <a href="#" class="logo logo-nav">
+                        <img src="assets/images/icons/Logo.svg" alt="Logo">
+                    </a>
+
+                    <ul>
+                        <li><a href="#">Loja</a></li>
+                        <li><a href="#">Coleções</a></li>
+                        <li><a href="#">Dicas</a></li>
+                        <li><a href="#">Quem somos</a></li>
+                    </ul>
+
+                    <div class="nav-store-icons">
+                        <a href="#"><img class="profile-icon" src="assets/images/icons/Profile.svg" alt="Profile"></a>
+                        <a href="#"><img src="assets/images/icons/Cart.svg" alt="Cart"></a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section class="carousel-hero">
+                <div class="main-carousel" id="hero-carousel">
+                    <div class="carousel-cell"><img src="/assets/images/hero-carousel-1.avif" alt="Surfista em tubo">
+                        <h1>SURFBOARD SHOP</h1>
+                    </div>
+                    <div class="carousel-cell"><img src="/assets/images/hero-carousel-2.avif" alt="Surfista em tubo outro angulo"></div>
+                    <div class="carousel-cell"><img src="/assets/images/hero-carousel-3.avif" alt="Surfista em tubo fechando"></div>
+                </div>
+            </section>
+
+            <section class="container container-padding teaser">
+                <img class="animate-on-scroll" src="/assets/images/teaser-colecao.avif" alt="Surfista">
+                <div class="teaser-content">
+                    <h3>Nova Coleção</h3>
+                    <p>Inspirada nas linhas do mar e feita para todos os estilos de surf, nossa nova linha une performance, design e inovação. Sinta a diferença dentro d’água com shapes pensados para cada tipo de onda.</p>
+                    <a class="button-page" href="/shop">Garanta a sua agora</a>
+                </div>
+            </section>
+
+            <section class="carousel-products">
+                <h2 class="section-title container animate-on-scroll">NOSSAS PRANCHAS</h2>
+                <div class="main-carousel container container-padding" id="products-carousel">
+                    <div class="carousel-cell animate-on-scroll">
+                        <div class="product-item">
+                            <div class="product-images">
+                                <img src="/assets/images/produtos/fish-1.png" alt="Prancha fish frente">
+                                <img src="/assets/images/produtos/fish-2.png" alt="Prancha fish verso">
+                                <p>NEW</p>
+                            </div>
+
+                            <p>Prancha Modelo Fish - 6'4 38L</p>
+                            <h4>R$ 1.400,00</h4>
+                            <a href="#" class="">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="carousel-cell animate-on-scroll">
+                        <div class="product-item">
+                            <div class="product-images">
+                                <img src="/assets/images/produtos/mid-1.png" alt="Prancha mid frente">
+                                <img src="/assets/images/produtos/mid-2.png" alt="Prancha mid verso">
+                                <p>NEW</p>
+                            </div>
+
+                            <p>Prancha Modelo Mid length - 7'2 52L</p>
+                            <h4>R$ 2.400,00 <s>R$ 2.800,00</s></h4>
+                            <a href="#">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="carousel-cell animate-on-scroll">
+                        <div class="product-item">
+                            <div class="product-images">
+                                <img src="/assets/images/produtos/short-1.png" alt="Prancha short frente">
+                                <img src="/assets/images/produtos/short-2.png" alt="Prancha short verso">
+                            </div>
+
+                            <p>Prancha Modelo Performance - 6'0 28L</p>
+                            <h4>R$ 1.300,00</h4>
+                            <a href="#">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="carousel-cell animate-on-scroll">
+                        <div class="product-item">
+                            <div class="product-images">
+                                <img src="/assets/images/produtos/long-1.png" alt="Prancha long frente">
+                                <img src="/assets/images/produtos/long-2.png" alt="Prancha long verso">
+                            </div>
+
+                            <p>Prancha Longboard híbrido - 9'0 64L</p>
+                            <h4>R$ 2.800,00</h4>
+                            <a href="#">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container container-padding">
+                <h2 class="section-title animate-on-scroll">Coleções</h2>
+                <div class="hero">
+                    <a href="#" class="hero-item hero-sixty animate-on-scroll">
+                        <img src="/assets/images/shortboards.avif" alt="Surfista no tubo">
+                        <div class="hero-content">
+                            <h3>Shortboards</h3>
+                            <p>Performance para tubos e manobras</p>
+                        </div>
+                    </a>
+
+                    <a href="#" class="hero-item hero-forty animate-on-scroll">
+                        <img src="/assets/images/midlength.avif" alt="Surfista na onda">
+                        <div class="hero-content">
+                            <h3>Mid Lengths</h3>
+                            <p>Conforto e performance</p>
+                        </div>
+                    </a>
+
+                    <a href="#" class="hero-item animate-on-scroll">
+
+                        <img src="/assets/images/longboards.avif" alt="Surfista com longboard">
+                        <div class="hero-content">
+                            <h3>Longboards</h3>
+                            <p>Surfe clássico com estilo</p>
+                        </div>
+                    </a>
+                </div>
+
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container container-padding footer-container">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <img src="assets/images/icons/LogoWhite.svg" alt="Logo da Empresa" class="footer-logo">
+                    </a>
+
+                    <p>Pranchas de surf para todos os níveis, com qualidade, variedade e atendimento especializado.</p>
+                </div>
+
+                <nav class="footer-section" aria-label="Navegação do site">
+                    <h2 class="footer-title">Nosso site</h2>
+                    <ul class="footer-list">
+                        <li><a href="#">Loja</a></li>
+                        <li><a href="#">Coleções</a></li>
+                        <li><a href="#">Dicas</a></li>
+                        <li><a href="#">Quem somos</a></li>
+                    </ul>
+                </nav>
+
+                <nav class="footer-section" aria-label="Redes sociais">
+                    <h2 class="footer-title">Social</h2>
+                    <ul class="footer-list social-list">
+                        <li><a href="#" aria-label="Instagram"><img src="/assets/images/icons/instagram.svg" alt=""></a>
+                        </li>
+                        <li><a href="#" aria-label="LinkedIn"><img src="/assets/images/icons/linkedin.svg" alt=""></a>
+                        </li>
+                        <li><a href="#" aria-label="Youtube"><img src="/assets/images/icons/Youtube.svg" alt=""></a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <section class="footer-section" aria-label="Contato">
+                    <h2 class="footer-title">Contato</h2>
+                    <ul class="footer-list">
+                        <li><a href="mailto:contato@surfboardshop.com">contato@surfboardshop.com</a></li>
+                        <li><a href="tel:+5548999999999">(48) 99999-9999</a></li>
+                        <li>
+                            <p>Rua, 123 - Florianópolis</p>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sua Empresa. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="assets/js/components/carousel.js"></script>
+    <script type="module" src="assets/js/main.js"></script>
 </body>
+
 </html>

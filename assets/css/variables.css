@@ -1,0 +1,8 @@
+:root {
+  --color-white: #ffffff;
+  --color-blue-dark: #001F54;
+  --color-blue-light: #2596BE;
+
+  --font-roboto: "Roboto", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+}
